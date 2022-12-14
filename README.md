@@ -13,7 +13,7 @@ This code defines a simple script for testing the license plate detection and OC
 <br><br> Usage:<br>
 1)Install the requirements :pip install -r requirement<br>
 2)To use this script, you need to provide the path to the folder containing the images to test as an argument to the script. For example, if the images are in a folder named "images" in the current directory, you can run the script as follows:<br>
-python main.py images
+python main.py images<br>
 Alternatively, you can specify a different path to the folder containing the images, like this:<br>
 python script.py /path/to/images<br>
 Once the script is running, it will detect the license plates in the images and print the plate numbers for each image. If no license plate is detected in an image, it will print a message saying "No plate detected".
