@@ -12,4 +12,8 @@ This script defines a function for performing optical character recognition (OCR
 This code defines a simple script for testing the license plate detection and OCR functions. The script loops through all the images in a specified folder and applies the detect_plate function to each image to detect the license plate. If the function detects a license plate in the image, the script applies the plate_ocr function to the detected license plate to perform OCR on it and extract the plate number. The script then prints the name of the image and the detected plate number. This code is useful for testing the performance of the license plate detection and OCR functions on a set of images and ensuring that they are working correctly.
 <br><br> Usage:<br>
 1)Install the requirements :pip install -r requirement<br>
-2)You need to have a set of images containing license plates that you want to detect and recognize. Once you have all these requirements in place, you can run the script by providing the path to the folder containing in the variable "testing_images"
+2)To use this script, you need to provide the path to the folder containing the images to test as an argument to the script. For example, if the images are in a folder named "images" in the current directory, you can run the script as follows:<br>
+python main.py images
+Alternatively, you can specify a different path to the folder containing the images, like this:<br>
+python script.py /path/to/images<br>
+Once the script is running, it will detect the license plates in the images and print the plate numbers for each image. If no license plate is detected in an image, it will print a message saying "No plate detected".
